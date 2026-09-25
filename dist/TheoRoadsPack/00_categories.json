@@ -1,0 +1,38 @@
+[
+  {
+    "id": "$theoroads_cat00",
+    "type": "category",
+    "title": "Theo Roads[ru]Дороги Theo",
+    "ordinal": 4,
+    "category": "$cat_transport00",
+    "frames": [
+      {
+        "bmp": "cat_root.png"
+      }
+    ]
+  },
+  {
+    "id": "$theoroads_cat_road00",
+    "type": "category",
+    "title": "Roads[ru]Дороги",
+    "ordinal": 1,
+    "category": "$theoroads_cat00",
+    "frames": [
+      {
+        "bmp": "cat_roads.png"
+      }
+    ]
+  },
+  {
+    "id": "$theoroads_cat_deco00",
+    "type": "category",
+    "title": "Road markings[ru]Разметка и фонари",
+    "ordinal": 2,
+    "category": "$theoroads_cat00",
+    "frames": [
+      {
+        "bmp": "cat_deco.png"
+      }
+    ]
+  }
+]

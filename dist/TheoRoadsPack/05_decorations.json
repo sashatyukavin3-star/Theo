@@ -1,0 +1,294 @@
+[
+  {
+    "id": "$theoroads_anim_crosswalk00",
+    "type": "animation",
+    "title": "anim crosswalk 0",
+    "frames": [
+      {
+        "bmp": "deco_crosswalk.png",
+        "x": 0,
+        "w": 32,
+        "h": 16,
+        "handle y": 8
+      }
+    ]
+  },
+  {
+    "id": "$theoroads_anim_crosswalk01",
+    "type": "animation",
+    "title": "anim crosswalk 1",
+    "frames": [
+      {
+        "bmp": "deco_crosswalk.png",
+        "x": 32,
+        "w": 32,
+        "h": 16,
+        "handle y": 8
+      }
+    ]
+  },
+  {
+    "id": "$theoroads_deco_crosswalk00",
+    "type": "road decoration",
+    "author": "sashatyukavin3-star",
+    "category": "$theoroads_cat_deco00",
+    "ordinal": 1,
+    "animation": [
+      {
+        "id": "$theoroads_anim_crosswalk00"
+      },
+      {
+        "id": "$theoroads_anim_crosswalk01"
+      }
+    ],
+    "frame animation indices": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        0
+      ],
+      [],
+      [],
+      [],
+      [],
+      [
+        1
+      ],
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "title": "Crosswalk[ru]Пешеходный переход",
+    "text": "Zebra crossing for your streets.[ru]«Зебра» для пешеходов.",
+    "price": 40,
+    "monthly price": 1,
+    "line tool": true,
+    "min dirs": 2,
+    "max dirs": 2,
+    "symmetric dirs": true
+  },
+  {
+    "id": "$theoroads_anim_stopline00",
+    "type": "animation",
+    "title": "anim stopline 0",
+    "frames": [
+      {
+        "bmp": "deco_stopline.png",
+        "x": 0,
+        "w": 32,
+        "h": 16,
+        "handle y": 8
+      }
+    ]
+  },
+  {
+    "id": "$theoroads_anim_stopline01",
+    "type": "animation",
+    "title": "anim stopline 1",
+    "frames": [
+      {
+        "bmp": "deco_stopline.png",
+        "x": 32,
+        "w": 32,
+        "h": 16,
+        "handle y": 8
+      }
+    ]
+  },
+  {
+    "id": "$theoroads_deco_stopline00",
+    "type": "road decoration",
+    "author": "sashatyukavin3-star",
+    "category": "$theoroads_cat_deco00",
+    "ordinal": 2,
+    "animation": [
+      {
+        "id": "$theoroads_anim_stopline00"
+      },
+      {
+        "id": "$theoroads_anim_stopline01"
+      }
+    ],
+    "frame animation indices": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        0
+      ],
+      [],
+      [],
+      [],
+      [],
+      [
+        1
+      ],
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "title": "Stop line[ru]Стоп-линия",
+    "text": "Marks where cars have to stop.[ru]Показывает, где машины должны остановиться.",
+    "price": 25,
+    "monthly price": 1,
+    "line tool": true,
+    "min dirs": 2,
+    "max dirs": 2,
+    "symmetric dirs": true
+  },
+  {
+    "id": "$theoroads_anim_speedbump00",
+    "type": "animation",
+    "title": "anim speedbump 0",
+    "frames": [
+      {
+        "bmp": "deco_speedbump.png",
+        "x": 0,
+        "w": 32,
+        "h": 16,
+        "handle y": 8
+      }
+    ]
+  },
+  {
+    "id": "$theoroads_anim_speedbump01",
+    "type": "animation",
+    "title": "anim speedbump 1",
+    "frames": [
+      {
+        "bmp": "deco_speedbump.png",
+        "x": 32,
+        "w": 32,
+        "h": 16,
+        "handle y": 8
+      }
+    ]
+  },
+  {
+    "id": "$theoroads_deco_speedbump00",
+    "type": "road decoration",
+    "author": "sashatyukavin3-star",
+    "category": "$theoroads_cat_deco00",
+    "ordinal": 3,
+    "animation": [
+      {
+        "id": "$theoroads_anim_speedbump00"
+      },
+      {
+        "id": "$theoroads_anim_speedbump01"
+      }
+    ],
+    "frame animation indices": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        0
+      ],
+      [],
+      [],
+      [],
+      [],
+      [
+        1
+      ],
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "title": "Speed bump[ru]Лежачий полицейский",
+    "text": "Slows down traffic on a road (speed x0.6).[ru]Снижает скорость машин на дороге (x0.6).",
+    "price": 60,
+    "monthly price": 1,
+    "speed": 0.6,
+    "line tool": true,
+    "min dirs": 2,
+    "max dirs": 2,
+    "symmetric dirs": true
+  },
+  {
+    "id": "$theoroads_anim_streetlight00",
+    "type": "animation",
+    "title": "anim streetlight 0",
+    "frames": [
+      {
+        "bmp": "deco_streetlight.png",
+        "x": 0,
+        "w": 32,
+        "h": 24,
+        "handle y": 16
+      }
+    ]
+  },
+  {
+    "id": "$theoroads_anim_streetlight01",
+    "type": "animation",
+    "title": "anim streetlight 1",
+    "frames": [
+      {
+        "bmp": "deco_streetlight.png",
+        "x": 32,
+        "w": 32,
+        "h": 24,
+        "handle y": 16
+      }
+    ]
+  },
+  {
+    "id": "$theoroads_deco_streetlight00",
+    "type": "road decoration",
+    "author": "sashatyukavin3-star",
+    "category": "$theoroads_cat_deco00",
+    "ordinal": 4,
+    "title": "Street light[ru]Уличный фонарь",
+    "text": "Lights up the road at night.[ru]Освещает дорогу ночью.",
+    "price": 80,
+    "monthly price": 2,
+    "speed": 1.0,
+    "line tool": true,
+    "allow road crossing": false,
+    "animation fg": [
+      {
+        "id": "$theoroads_anim_streetlight00"
+      },
+      {
+        "id": "$theoroads_anim_streetlight01"
+      }
+    ],
+    "frame animation fg indices": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        1
+      ],
+      [],
+      [],
+      [],
+      [],
+      [
+        0
+      ],
+      [],
+      [],
+      [],
+      [],
+      []
+    ]
+  }
+]
