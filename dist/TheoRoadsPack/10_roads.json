@@ -1,0 +1,366 @@
+[
+  {
+    "id": "$theoroads_gravel00",
+    "type": "road",
+    "author": "sashatyukavin3-star",
+    "title": "Gravel road[ru]Гравийная дорога",
+    "text": "Cheap road for the outskirts of your city.[ru]Дешёвая дорога для окраин города.",
+    "category": "$theoroads_cat_road00",
+    "ordinal": 1,
+    "level": 0,
+    "speed": 1.2,
+    "price": 15,
+    "monthly price": 1,
+    "bridge price": 180,
+    "frames": [
+      {
+        "bmp": "road_gravel.png",
+        "w": 32,
+        "h": 16,
+        "count": 16
+      }
+    ],
+    "requirement": {
+      "requirements": [
+        {
+          "type": "RANK",
+          "data": {
+            "lvl": 1
+          }
+        }
+      ]
+    },
+    "connectable": false,
+    "draw ground": true,
+    "traffic lights": [
+      {
+        "bmp": "traffic_lights.png",
+        "w": 32,
+        "h": 32,
+        "count": 4
+      }
+    ],
+    "green phase": 4000,
+    "yellow phase": 600
+  },
+  {
+    "id": "$theoroads_rural00",
+    "type": "road",
+    "author": "sashatyukavin3-star",
+    "title": "Country road[ru]Загородная дорога",
+    "text": "Two lanes without a sidewalk, with a dashed centre line.[ru]Две полосы без тротуара, с прерывистой осевой линией.",
+    "category": "$theoroads_cat_road00",
+    "ordinal": 2,
+    "level": 1,
+    "speed": 2.0,
+    "price": 90,
+    "monthly price": 3,
+    "bridge price": 1080,
+    "frames": [
+      {
+        "bmp": "road_rural.png",
+        "w": 32,
+        "h": 16,
+        "count": 16
+      }
+    ],
+    "requirement": {
+      "requirements": [
+        {
+          "type": "RANK",
+          "data": {
+            "lvl": 1
+          }
+        }
+      ]
+    },
+    "draw ground": true,
+    "traffic lights": [
+      {
+        "bmp": "traffic_lights.png",
+        "w": 32,
+        "h": 32,
+        "count": 4
+      }
+    ],
+    "green phase": 4000,
+    "yellow phase": 600
+  },
+  {
+    "id": "$theoroads_street00",
+    "type": "road",
+    "author": "sashatyukavin3-star",
+    "title": "Town street[ru]Городская улица",
+    "text": "A narrow street with a sidewalk.[ru]Узкая улица с тротуаром.",
+    "category": "$theoroads_cat_road00",
+    "ordinal": 3,
+    "level": 1,
+    "speed": 2.3,
+    "price": 170,
+    "monthly price": 5,
+    "bridge price": 2040,
+    "frames": [
+      {
+        "bmp": "road_street.png",
+        "w": 32,
+        "h": 16,
+        "count": 16
+      }
+    ],
+    "requirement": {
+      "requirements": [
+        {
+          "type": "RANK",
+          "data": {
+            "lvl": 2
+          }
+        }
+      ]
+    },
+    "traffic lights": [
+      {
+        "bmp": "traffic_lights.png",
+        "w": 32,
+        "h": 32,
+        "count": 4
+      }
+    ],
+    "green phase": 4000,
+    "yellow phase": 600
+  },
+  {
+    "id": "$theoroads_street100",
+    "type": "road",
+    "author": "sashatyukavin3-star",
+    "title": "Two-lane street[ru]Двухполосная улица",
+    "text": "Dashed lanes and edge lines.[ru]Прерывистые полосы и краевые линии.",
+    "category": "$theoroads_cat_road00",
+    "ordinal": 4,
+    "level": 1,
+    "speed": 2.5,
+    "price": 240,
+    "monthly price": 7,
+    "bridge price": 2880,
+    "frames": [
+      {
+        "bmp": "road_street1.png",
+        "w": 32,
+        "h": 16,
+        "count": 16
+      }
+    ],
+    "requirement": {
+      "requirements": [
+        {
+          "type": "RANK",
+          "data": {
+            "lvl": 3
+          }
+        }
+      ]
+    },
+    "traffic lights": [
+      {
+        "bmp": "traffic_lights.png",
+        "w": 32,
+        "h": 32,
+        "count": 4
+      }
+    ],
+    "green phase": 4000,
+    "yellow phase": 600
+  },
+  {
+    "id": "$theoroads_avenue00",
+    "type": "road",
+    "author": "sashatyukavin3-star",
+    "title": "Avenue[ru]Проспект",
+    "text": "Yellow centre line and white edge lines.[ru]Жёлтая осевая и белые краевые линии.",
+    "category": "$theoroads_cat_road00",
+    "ordinal": 5,
+    "level": 2,
+    "speed": 3.0,
+    "price": 380,
+    "monthly price": 9,
+    "bridge price": 4560,
+    "frames": [
+      {
+        "bmp": "road_avenue.png",
+        "w": 32,
+        "h": 16,
+        "count": 16
+      }
+    ],
+    "requirement": {
+      "requirements": [
+        {
+          "type": "RANK",
+          "data": {
+            "lvl": 4
+          }
+        }
+      ]
+    },
+    "traffic lights": [
+      {
+        "bmp": "traffic_lights.png",
+        "w": 32,
+        "h": 32,
+        "count": 4
+      }
+    ],
+    "green phase": 6000,
+    "yellow phase": 1000
+  },
+  {
+    "id": "$theoroads_avenue100",
+    "type": "road",
+    "author": "sashatyukavin3-star",
+    "title": "Divided avenue[ru]Проспект с разделительными полосами",
+    "text": "Two lanes in each direction.[ru]По две полосы в каждую сторону.",
+    "category": "$theoroads_cat_road00",
+    "ordinal": 6,
+    "level": 2,
+    "speed": 3.2,
+    "price": 520,
+    "monthly price": 12,
+    "bridge price": 6240,
+    "frames": [
+      {
+        "bmp": "road_avenue1.png",
+        "w": 32,
+        "h": 16,
+        "count": 16
+      }
+    ],
+    "requirement": {
+      "requirements": [
+        {
+          "type": "RANK",
+          "data": {
+            "lvl": 5
+          }
+        }
+      ]
+    },
+    "traffic lights": [
+      {
+        "bmp": "traffic_lights.png",
+        "w": 32,
+        "h": 32,
+        "count": 4
+      }
+    ],
+    "green phase": 6000,
+    "yellow phase": 1000
+  },
+  {
+    "id": "$theoroads_express00",
+    "type": "road",
+    "author": "sashatyukavin3-star",
+    "title": "Expressway[ru]Скоростная магистраль",
+    "text": "Four lanes with a median; buses and cars only.[ru]Четыре полосы с разделителем; только легковые и автобусы.",
+    "category": "$theoroads_cat_road00",
+    "ordinal": 7,
+    "level": 3,
+    "speed": 4.5,
+    "price": 900,
+    "monthly price": 20,
+    "bridge price": 10800,
+    "frames": [
+      {
+        "bmp": "road_express.png",
+        "w": 32,
+        "h": 16,
+        "count": 16
+      }
+    ],
+    "requirement": {
+      "requirements": [
+        {
+          "type": "RANK",
+          "data": {
+            "lvl": 7
+          }
+        }
+      ]
+    },
+    "allow bus stop": false,
+    "flag normal": false,
+    "flag pkw": true,
+    "flag lkw": false,
+    "flag bus": true,
+    "pedestrians": false,
+    "deco": {
+      "draft": "$theoroads_deco_light00",
+      "step": 5
+    },
+    "traffic lights": [
+      {
+        "bmp": "traffic_lights.png",
+        "w": 32,
+        "h": 32,
+        "count": 4
+      }
+    ],
+    "green phase": 6000,
+    "yellow phase": 1000
+  },
+  {
+    "id": "$theoroads_motorway00",
+    "type": "road",
+    "author": "sashatyukavin3-star",
+    "title": "Motorway (one way)[ru]Автомагистраль (односторонняя)",
+    "text": "One-way motorway with guard rails. Cars and trucks only.[ru]Односторонняя магистраль с отбойниками. Только автомобили и грузовики.",
+    "category": "$theoroads_cat_road00",
+    "ordinal": 8,
+    "level": 3,
+    "speed": 5.5,
+    "price": 1400,
+    "monthly price": 30,
+    "bridge price": 16800,
+    "frames": [
+      {
+        "bmp": "road_motorway.png",
+        "w": 32,
+        "h": 32,
+        "count": 16
+      },
+      {
+        "bmp": "road_motorway.png",
+        "w": 32,
+        "h": 32,
+        "count": 16,
+        "copies": 3
+      }
+    ],
+    "requirement": {
+      "requirements": [
+        {
+          "type": "RANK",
+          "data": {
+            "lvl": 8
+          }
+        }
+      ]
+    },
+    "one way": true,
+    "overrunnable": true,
+    "one way frames": [
+      {
+        "bmp": "oneway_arrows.png",
+        "w": 32,
+        "h": 16,
+        "count": 4
+      }
+    ],
+    "allow bus stop": false,
+    "allow crossing": false,
+    "auto join": false,
+    "flag normal": false,
+    "flag pkw": true,
+    "flag lkw": true,
+    "flag bus": false,
+    "pedestrians": false
+  }
+]
