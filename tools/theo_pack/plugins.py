@@ -404,12 +404,20 @@ def build_thumbnail(out_dir: str):
     return img
 
 
-def zip_pack(pack_dir: str, zip_path: str):
-    """Упаковать плагин в zip (можно переименовать в .ttplugin/.plugin)."""
+def zip_pack(pack_dir: str, zip_path: str, with_root: bool = True):
+    """Упаковать плагин в zip.
+
+    with_root=True кладёт файлы внутрь папки с именем плагина: тогда архив
+    можно как положить в plugins целиком (игра сама его распакует), так и
+    распаковать в plugins -- получится аккуратная папка TheoRoadsPack,
+    а не 22 файла вперемешку с другими плагинами.
+    """
+    root_name = os.path.basename(os.path.normpath(pack_dir))
     with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as z:
         for root, _dirs, files in os.walk(pack_dir):
             for name in sorted(files):
                 full = os.path.join(root, name)
                 rel = os.path.relpath(full, pack_dir)
-                z.write(full, rel)
+                arc = os.path.join(root_name, rel) if with_root else rel
+                z.write(full, arc)
     return zip_path
