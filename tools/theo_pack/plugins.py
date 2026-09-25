@@ -371,7 +371,6 @@ def build_manifest(out_dir: str, version: int | None = None):
         "text": PACK["text"],
         "author": PACK["author"],
         "thumbnail": "thumbnail.png",
-        "min version": 1200,
         "multiplayer": True,
     }
     with open(os.path.join(out_dir, "plugin.manifest"), "w", encoding="utf-8") as f:
