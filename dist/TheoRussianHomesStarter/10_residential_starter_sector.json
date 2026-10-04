@@ -1,0 +1,47 @@
+[
+  {
+    "id": "$theorussia_res_starter_timber00",
+    "type": "residential",
+    "author": "sashatyukavin3-star",
+    "title": "Village Timber Cottage[ru]Деревянный дом в селе",
+    "text": "A small timber home with a blue metal roof.[ru]Небольшой деревянный дом с синей металлической крышей.",
+    "width": 1,
+    "height": 1,
+    "level": 1,
+    "frames": [
+      {
+        "bmp": "res_ru_timber_cottage.png"
+      }
+    ]
+  },
+  {
+    "id": "$theorussia_res_starter_brick00",
+    "type": "residential",
+    "author": "sashatyukavin3-star",
+    "title": "Brick Dacha[ru]Кирпичная дача",
+    "text": "A modest brick dacha with a red gabled roof.[ru]Небольшая кирпичная дача с красной двускатной крышей.",
+    "width": 1,
+    "height": 1,
+    "level": 1,
+    "frames": [
+      {
+        "bmp": "res_ru_brick_dacha.png"
+      }
+    ]
+  },
+  {
+    "id": "$theorussia_res_starter_panel05",
+    "type": "residential",
+    "author": "sashatyukavin3-star",
+    "title": "Five-storey Panel Block[ru]Пятиэтажный панельный дом",
+    "text": "A compact five-storey Soviet-era panel apartment block.[ru]Компактный пятиэтажный панельный жилой дом советской эпохи.",
+    "width": 2,
+    "height": 2,
+    "level": 1,
+    "frames": [
+      {
+        "bmp": "res_ru_panel_five_storey.png"
+      }
+    ]
+  }
+]
